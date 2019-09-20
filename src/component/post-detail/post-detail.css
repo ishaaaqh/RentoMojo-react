@@ -1,0 +1,32 @@
+.Posts--container .Posts--Header {
+    display: flex;
+    justify-content: space-between;
+}
+.Posts--container {
+    display: block;
+    padding: 10px;
+}
+.Posts--container .Blog-content{
+    padding: 10px 20px;
+}
+.Posts--container .Posts--Header button.delete-blog{
+    display: inline-block;
+    vertical-align: top;
+    margin: 0;
+    padding: 10px 2rem;
+    background-color: rgba(218, 85, 85, 0.9);
+    color: #fff;
+    border-radius: 0.3rem;
+    border: 1px solid #ea0c0c;
+    text-transform: uppercase;
+    text-decoration: none;
+    text-shadow: 0 0 1px #FFF;
+    text-shadow: 0 0 1px #FFF;
+    cursor: pointer;
+
+}
+.Posts--container .Posts--Header .blog--title{
+    font-size: 20px;
+    font-weight: 600;
+    font-family: inherit;
+}

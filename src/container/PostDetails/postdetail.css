@@ -1,0 +1,7 @@
+.Comments {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 104px;
+    flex-direction: column;
+}

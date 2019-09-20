@@ -1,0 +1,9 @@
+.Post--preface {
+    border: 1px solid #ccc;
+    width: 100%;
+    transition: .3s;
+    padding:0 10px;
+}
+.Post--preface:hover {
+    box-shadow: 0 0px 8px 0 rgba(0, 0, 0, 0.2);
+}

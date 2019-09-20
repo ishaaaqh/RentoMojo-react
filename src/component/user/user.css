@@ -1,0 +1,45 @@
+.User--card{
+    border: 1px solid #ccc;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    height: 150px;
+    margin: auto;
+    padding: 0 20px 20px 20px;
+    text-align: center;
+    display: inline-block;
+    margin: 15px;
+    width: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.User--card .User--name {
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 20px;
+    font-family: auto;
+}
+.User--card .User--subContainer .User--blogs {
+    display: block;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #141eb9;
+    cursor: pointer;
+    text-decoration: none;
+    transition: border 4s ease-out;
+    border-bottom: 0;
+}
+.User--card .User--subContainer a.User--blogs:hover {
+    border-bottom: 1px solid #141eb9;
+}
+.User--card .User--subContainer .User--company {
+    font-size: 14px;
+    text-transform: capitalize;
+    font-weight: 600;
+    display: block;
+}
